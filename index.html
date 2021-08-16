@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuppa Kappa Studio</title>
+
+    <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+          crossorigin="anonymous">
+
+    <style>
+        footer {
+            margin-top: -3rem;
+        }
+    </style>
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+    <!-- <header>
+        CuppaKappaLogo?
+    </header> -->
+
+    <main class="container d-flex min-vh-100 flex-column align-items-center justify-content-center">
+        <h1>Welcome to Cuppa Kappa Studio!</h1>
+
+        <p>We have the best cuppas of kappas you have ever seen!</p>
+
+        <p>Coming Soon!</p>
+    </main>
+
+    <footer class="container d-flex justify-content-center">
+        Cuppa Kappa Studio &copy; <span id="footer-date" class="mx-1"></span> All Rights Reservered.
+
+        <div>
+            <a href="#tos">Terms of Service</a>
+
+            <span id="footer-spacer">|</span>
+
+            <a href="#privacy">Privacy</a>
+        </div>
+    </footer>
+
+    <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+            crossorigin="anonymous"></script>
+
+    <script>
+        const footerDate = document.getElementById('footer-date')
+        footerDate.textContent = " " + new Date().getFullYear() + " "
+    </script>
+</body>
+
+</html>
